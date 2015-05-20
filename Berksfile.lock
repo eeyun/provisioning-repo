@@ -1,0 +1,13 @@
+DEPENDENCIES
+  chef-server-provision
+    git: https://github.com/stephenlauck/chef-server-provision.git
+    revision: 8a856b924c9ca162a00ceef4cf22aa9309c42c88
+
+GRAPH
+  chef-server (3.1.1)
+    chef-server-ingredient (>= 0.0.0)
+  chef-server-ingredient (0.3.2)
+    packagecloud (>= 0.0.0)
+  chef-server-provision (0.1.0)
+    chef-server (>= 0.0.0)
+  packagecloud (0.0.17)
